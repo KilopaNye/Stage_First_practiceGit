@@ -50,7 +50,7 @@ def calculate_sum_of_bonus(data):
         elif i["role"] == "Sales":
             bonus2 += 300
 
-        # 判斷工作績效給予職位獎金
+        # 判斷工作績效給予獎金
         if i["performance"] == "above average":
             bonus2 += 800
         elif i["performance"] == "average":
